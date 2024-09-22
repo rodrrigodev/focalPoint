@@ -4,7 +4,7 @@ import { Inter_Tight } from 'next/font/google'
 import { Header } from "./components/header";
 
 
-const interTight = Inter_Tight({ subsets: ['latin'], weight: ['500'] })
+const interTight = Inter_Tight({ subsets: ['latin'], weight: ['400', '500'] })
 
 export const metadata: Metadata = {
   title: "Create Next App",

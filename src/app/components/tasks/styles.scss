@@ -1,0 +1,83 @@
+
+
+.checkBoxContainer{
+  display: flex;
+  align-items: center;
+}
+
+.root {
+  width: 24px;
+  height: 24px;
+  border: 1px solid #B0BBD1;
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+   
+  }
+  
+  .label {
+    padding-left: 1rem;
+  }
+
+.checkboxContainer {
+  display: flex;
+  align-items: center;
+}
+
+  .taskContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 24.125rem;
+    padding: 1rem;
+    border: 1px dashed #B0BBD1;
+    border-radius: 8px;
+    transition: all 400ms ;
+    cursor: pointer;
+   
+    &:not(:last-of-type){
+      margin-bottom: 1.5rem;
+    }
+
+    &:hover{
+      background-color: #F7F9FD;
+      border: 1px dashed transparent;
+      transition: all 400ms ;
+    }
+  }
+
+  .deleteBtn{
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+  }
+
+
+  .formContainer{
+    margin: 0 auto;
+    padding: 2rem;
+    border-radius: 16px;
+
+    border: 1px solid #EAECF0;
+    max-width: 28.125rem;
+  }
+
+  .tasksTitle{
+    opacity: 54%;
+    font-weight: 400;
+    margin-bottom: 1.5rem;
+    text-align: center;
+  }
+
+  .addTaskBtn{
+    width: 100%;
+    background: linear-gradient(90deg, #0796D3 0%, #53C0F0 68.65%);
+    border-radius: 8px;
+    padding: 1rem 0;
+    font-weight: 500;
+    color: white;
+    border: none;
+
+    margin-top: 2.5rem;
+  }
